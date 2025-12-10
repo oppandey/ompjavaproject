@@ -1,0 +1,10 @@
+Create a .Net MVC Project for a Banking Application
+Create Account class with AccountID, HolderName, Balance as properties. Add data members and validations for the data members.
+Create Savings and Current class with data members as MinBalance and Overdraft
+Create Services showcasing Accout Types and allow users to create objects of Savings and Current Type
+Build and Run the application
+Create views for SAvings and Current Account and allow users to the respective Account Types
+Use Code first apprach and create Table structure for the current application
+Create a new class as AccountIDGenerator which will help generate unique account id and use Singleton Pattern while creating the class
+Make the Account services available as Restful servies and also make endpoints avaialbe using OpenAPI Swagger format
+Create test cases for all classes
