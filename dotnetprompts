@@ -1,6 +1,8 @@
 Example 1
 Create a .Net MVC Project for a Banking Application
 Create Account class with AccountID, HolderName, Balance as properties. Add data members and validations for the data members.
+Create Data members and add parameterized constructor
+Add validation logic in the setter methods
 Create Savings and Current class with data members as MinBalance and Overdraft
 Create Services showcasing Accout Types and allow users to create objects of Savings and Current Type
 Build and Run the application
