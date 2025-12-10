@@ -1,3 +1,4 @@
+Example 1
 Create a .Net MVC Project for a Banking Application
 Create Account class with AccountID, HolderName, Balance as properties. Add data members and validations for the data members.
 Create Savings and Current class with data members as MinBalance and Overdraft
@@ -8,3 +9,18 @@ Use Code first apprach and create Table structure for the current application
 Create a new class as AccountIDGenerator which will help generate unique account id and use Singleton Pattern while creating the class
 Make the Account services available as Restful servies and also make endpoints avaialbe using OpenAPI Swagger format
 Create test cases for all classes
+
+example 2
+Sample Prompt for .NET:
+ 
+	@workspace /new Create a .NET 8 Web aPI project to perform CRUD operations on Book Model. Book model contains Id, Title, Author, PublishedYear, Genre and Language. 
+	The project uses Sqlite as a database along with EntityFrameworkCore. Use repository pattern to implement the database operations. 
+	- Enable Swagger and Swagger UI 
+	- Enable CORS to allow all domains
+	- Create the .csproj file with all dependencies required
+	- Configure the connection string in the appsettings.json
+	- Create separate folder for Solution and project. 
+	- Specify the solution name as BookLibrary and Project name as BookApi. 
+	- Use async methods in repository and controllers
+	- Do not use any service classes 
+
